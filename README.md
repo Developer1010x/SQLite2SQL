@@ -41,15 +41,18 @@ both: Exports both structure and data (default mode).
 Example
 To convert an SQLite database named example.db to a MySQL dump named example.sql, run:
 
-bash
-```
+
+```bash
 python sqlite_to_mysql.py example.db example.sql
 ```
 To export only the structure without the DROP TABLE statements, use:
 
-bash
 
-$ ```python sqlite_to_mysql.py example.db --no-drop --export-mode structure```
+
+ ```
+bash
+python sqlite_to_mysql.py example.db --no-drop --export-mode structure
+```
 
 
 Handling Interruptions
@@ -73,10 +76,10 @@ For any questions or feedback, please contact me
 
 
 
-# mysql-connector-python==8.0.28  # For MySQL database connectivity (if needed)
-# sqlalchemy==1.4.22               # For SQLAlchemy ORM support (if needed)
-# sqlite3
-# signal
-# argparse
+###  mysql-connector-python==8.0.28  # For MySQL database connectivity (if needed)
+###  sqlalchemy==1.4.22               # For SQLAlchemy ORM support (if needed)
+###  sqlite3
+###  signal
+###  argparse
 
 
