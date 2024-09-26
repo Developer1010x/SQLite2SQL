@@ -68,5 +68,15 @@ Contact
 
 For any questions or feedback, please contact me
 
-m
+# Requirements for SQLite to MySQL SQL Dump Converter
+
+
+
+
+# mysql-connector-python==8.0.28  # For MySQL database connectivity (if needed)
+# sqlalchemy==1.4.22               # For SQLAlchemy ORM support (if needed)
+# sqlite3
+# signal
+# argparse
+
 
